@@ -10,7 +10,7 @@ class LecturaSerializar {
         Vehiculo vehiculo;
 
         try {
-            lecturaBytes = new FileInputStream("G:\\Mi unidad\\DAW\\PROG\\EJERCICIOS\\Codigos\\src\\Ficheros\\Serializable\\Objeto.txt"); // (ruta) Debe existir siempre
+            lecturaBytes = new FileInputStream("src\\Ficheros\\Serializable\\Objeto.txt"); // (ruta) Debe existir siempre
             lecturaObjetos = new ObjectInputStream(lecturaBytes);
 
             vehiculo = (Vehiculo) lecturaObjetos.readObject(); // Leemos el objeto y lo instanciamos casteando a su tipo

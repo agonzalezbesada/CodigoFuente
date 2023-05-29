@@ -10,7 +10,7 @@ import java.io.IOException;
         FileWriter escribe; // Inicializar previamente
 
         try { // Siempre operar dentro de try/catch
-            escribe = new FileWriter("G:\\Mi unidad\\DAW\\PROG\\EJERCICIOS\\Codigos\\src\\Ficheros\\Texto\\EscritoTexto.txt"); // (ruta) Puede no existir aún
+            escribe = new FileWriter("src\\Ficheros\\Texto\\EscritoTexto.txt"); // (ruta) Puede no existir aún
             escribe.write("Hola Mundo!"); // (texto) Debe ser String o Char
             escribe.close(); // Siempre cerrar + guarda los cambios
 

@@ -1,4 +1,4 @@
-package Ficheros.Binario; // *Permite guardar objetos
+package Ficheros.Binario; // Permite guardar objetos
 
 public class Main {
     public static void main(String[] args) {

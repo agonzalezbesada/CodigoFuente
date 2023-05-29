@@ -10,7 +10,7 @@ class Escritura {
         BufferedWriter buffer; // Almacena la información de texto + eficiencia
 
         try {
-            escrituraBytes = new FileOutputStream("G:\\Mi unidad\\DAW\\PROG\\EJERCICIOS\\Codigos\\src\\Ficheros\\Binario\\EscritoBytes.txt"); // (ruta) Puede no existir aún
+            escrituraBytes = new FileOutputStream("src\\Ficheros\\Binario\\EscritoBytes.txt"); // (ruta) Puede no existir aún
             textoABytes = new OutputStreamWriter(escrituraBytes);
             buffer = new BufferedWriter(textoABytes);
 

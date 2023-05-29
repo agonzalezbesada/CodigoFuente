@@ -12,7 +12,7 @@ class Lectura {
         BufferedReader buffer; // Almacena y transforma en texto + eficiencia
 
         try {
-            lecturaBytes = new FileInputStream("G:\\Mi unidad\\DAW\\PROG\\EJERCICIOS\\Codigos\\src\\Ficheros\\Binario\\EscritoBytes.txt"); // (ruta) Debe existir siempre
+            lecturaBytes = new FileInputStream("src\\Ficheros\\Binario\\EscritoBytes.txt"); // (ruta) Debe existir siempre
             bytesATexto = new InputStreamReader(lecturaBytes);
             buffer = new BufferedReader(bytesATexto);
             int caracter = buffer.read(); // Muestra el primer elemento de la cola en forma de código de caracter

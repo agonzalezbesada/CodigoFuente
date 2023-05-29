@@ -11,7 +11,7 @@ class EscrituraSerializar {
         Vehiculo vehiculo = new Vehiculo(); // Instanciamos el objeto
 
         try {
-            escrituraBytes = new FileOutputStream("G:\\Mi unidad\\DAW\\PROG\\EJERCICIOS\\Codigos\\src\\Ficheros\\Serializable\\Objeto.txt");
+            escrituraBytes = new FileOutputStream("src\\Ficheros\\Serializable\\Objeto.txt");
             escrituraObjetos = new ObjectOutputStream(escrituraBytes);
 
             escrituraObjetos.writeObject(vehiculo); // Escribimos el objeto
