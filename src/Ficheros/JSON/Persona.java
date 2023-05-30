@@ -2,7 +2,7 @@ package Ficheros.JSON;
 
 import java.util.ArrayList;
 
-public class Persona {
+class Persona {
 
     private String nombre;
 
@@ -12,7 +12,7 @@ public class Persona {
 
     private boolean vivo;
 
-    public Persona() {
+    Persona() {
         this.nombre = "Antonio";
         this.edad = 33;
         this.hobbies.add("origami");
@@ -21,7 +21,7 @@ public class Persona {
 
     }
 
-    public Persona(String nombre, int edad, ArrayList<String> hobbies, boolean vivo) {
+    Persona(String nombre, int edad, ArrayList<String> hobbies, boolean vivo) {
         this.nombre = nombre;
         this.edad = edad;
         this.hobbies = hobbies;

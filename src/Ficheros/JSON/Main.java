@@ -27,7 +27,7 @@ public class Main {
             file.close();
 
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println(e.toString());
         }
 
         // Leemos de un fichero y lo pasamos a un String
